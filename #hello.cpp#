@@ -1,0 +1,12 @@
+#INCLUDE  <iostream>
+using namspace STD;
+
+INT MAIN ()
+{
+
+  COUT << "HELLO WORLD!"
+    RETURN 0;
+
+}
+
+

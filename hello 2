@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{	
+	char arr[11];
+	int i;
+	
+for (i=0; i<10; i++)
+{	
+	printf("Bitte %i.Kleinbuchstabe eingeben:\n",i+1);
+	scanf("%s",&arr[i]);
+}
+if (arr[i]>=97 && arr[i]<=122)
+for (i=0; i<10; i++)
+{
+	printf("Grossbuchstabe:%c\n", arr[i]-32);
+}
+else 
+{	
+	printf("Sie haben keinen Kleinbuchstaben eingegeben\n");
+}
+return 0;
+}
