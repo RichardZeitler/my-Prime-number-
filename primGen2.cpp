@@ -4,16 +4,16 @@
 using namespace std;
  
 int main(){
-    int upper = 18;                                                 // obere grenze
-    int lower = 7;                                                  // untere grenze
+    int upper = 0;                                                 // obere grenze
+    int lower = 0;                                                  // untere grenze
     int div = 2;                                                    // durch diese zahl wird dividiert
     int result = 0;                                                 // der modulo wert (division mit rest)
     int counter = 0;                                                // variable die die nullen bei der modulo rechnung zählt
 
     cout << "untere grenze :";                                         // gibt dem user die nachicht "upper limit"
-    cin >> upper;                                                   // der user input wird als "upper" variable deffiniert   
+    cin >> lower;                                                   // der user input wird als "upper" variable deffiniert   
     cout << "obere grenze:";                                         // giebt dem uer die nachicht "lower limit"
-    cin >> lower;                                                   // der userinput wird als "lower" deffiniert
+    cin >> upper;                                                   // der userinput wird als "lower" deffiniert
     //cout << "test" << endl;
  
     for( int i = lower; i < upper; i++ ){                           /*Zählen von der unterren grenze bis zur oberen grenze ( for muss haben!!!!)
